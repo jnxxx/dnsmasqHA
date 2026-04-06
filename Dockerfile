@@ -10,3 +10,5 @@ RUN apk add --no-cache dnsmasq
 # Copy data
 COPY rootfs /
 
+# Grant executable permissions to all scripts in the init directory
+RUN chmod a+x /etc/cont-init.d/*
