@@ -24,9 +24,6 @@ configuration:
   ptrs:
     name: PTR-records
     description: For IP 1.2.3.4, specify 4.3.2.1.in-addr.arpa.
-    ip:
-      name: For IP 1.2.3.4, specify 4.3.2.1.in-addr.arpa.
-      description: ABC
   log_queries:
     name: Log Queries
     description: Log all DNS requests.
