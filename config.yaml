@@ -9,8 +9,7 @@ url: https://github.com/jnxxx/dnsmasqHA/tree/main
 arch:
   - aarch64
   - amd64
-#image: homeassistant/{arch}-addon-dnsmasq
-image: jnxxx/{arch}-addon-dnsmasqtest
+image: homeassistant/{arch}-addon-dnsmasq
 init: false
 options:
   defaults:
