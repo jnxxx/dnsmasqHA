@@ -18,6 +18,9 @@ configuration:
   cnames:
     name: Cnames
     description: Provide cname records for DNSMasq to resolve.
+  ptrs:
+    ip: ptr
+    description: For IP 1.2.3.4, specify 4.3.2.1.in-addr.arpa.
   log_queries:
     name: Log Queries
     description: Log all DNS requests.
