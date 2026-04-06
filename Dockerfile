@@ -12,3 +12,4 @@ COPY rootfs /
 
 # Grant executable permissions to all scripts in the init directory
 RUN chmod a+x /etc/cont-init.d/*
+RUN chmod a+x /etc/services.d/dnsmasq/*
